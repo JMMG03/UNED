@@ -1,0 +1,78 @@
+manalonso@madrid.uned.es
+fecha de entrega 18 mayo. (intentar entregarlo antes por si caen los servidores de la uned)
+Entregarlo por la plataforma.
+No hacer de más.
+
+===================================================================
+Observaciones para la practica:
+- Hacer UML de la practica
+- No es necesario tener dos clases; usuario estándar y premium (Buscar otra manera de configurarlo si es necesario)
+- No se valora la persistencia de datos (ficheros, etc)
+- Los que trabajan en administración también pueden alquilar ( el modelo base solo permite que alquilen los estándar y premium )
+- Centrarse en hacer perfecto el administrador, CRUD, etc.
+- Hacer todos los listados requeridos
+- Asignación de vehículos para reparaciones, mecanicos, etc
+- CRUD para todo
+- Estadísticas (menos prioritario)
+- Todo se parece, no complicarse la vida.
+- Alquiler de vehiculo (critico)
+- Generación de facturas (muy laborioso - no prioritario - puede descartarse)
+- Programa principal MAIN (solo 5 líneas de código), carga de datos ejemplo, menú principal(por ejemplo que usuario eres admin  usuario)
+
+
+===================================================================
+De cara al examen:
+- Podemos especificar que el tutor lo dio por valido ya que no tiene porque estar de acuerdo con el docente
+
+===================================================================
+Curiosidades:
+Barbara Liskov MIT -> Teoría de tipos
+
+===================================================================
+otros:
+
+Nada de esto es necesario
+Agregación + Delegación : Un usuario posee una categoría que contiene estándar y premium. Ejemplo precio().
+
+		      |-> estandar
+Usuario -> Categoria -
+		      |-> premium
+
+Usuario {
+private Categoria categoría;  Categoria es abstracto (abstract)
+}
+
+precio en usuario
+doublé precio (){
+return miCategoria precio();
+} 
+++++++
+Los administradores pueden alquilar también los vehículos.
+
+
+ usuario < - - - -  -    - - - > empleado
+  ^                  |  |           ^
+usuario interfaz   persona       empleado interfaz
+	              v	
+	rombo a empleado y  usuario
+
+persona implementaría de usuario y empleado
+
+
+vehiculo rombo Base 
+Lista de vehículos vehiculo a base y base a vehiculo
+
+persona { private static List<PErsona> personas;
+===================================================================
+MEMORIA: (en un pdf)
+1. Objetivo: (una o dos líneas)
+2. Requerimientos: 
+	2.1 Funcional (tiene que saber que hacer la aplicación,lo que me piden, diferenciar por roles las funciones(puedes dividirlo en subnumeros 2.1.1, 2.1.2,etc))(escribir lo que hecho :))
+	2.2 No funcional (el lenguaje, IDE, etc)
+	2.3 Requerimientos de datos (modelos UML)
+3. Diseño:
+	- Decisiones (cómo y por qué guardo las cosas así)
+	- Descomposición (en modulos, paquetes.)(interfaz->menus, control(control administrador(metodos),modelos(clases))
+	desde modelos nunca se llama a control
+
+4. Conclusiones (que es lo que mas ha costado de la practica,q me ha gustado, que no,etc)
