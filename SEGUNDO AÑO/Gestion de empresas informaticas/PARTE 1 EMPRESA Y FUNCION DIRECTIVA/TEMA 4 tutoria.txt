@@ -1,0 +1,21 @@
+Tablas grises entran en examen
+
+-------------------------------
+TEMA 4:
+
+Punto 3: Definiciones (Ambientes de decisión)
+Punto 4: Criterios de decisión en ambiente de incertidumbre (aprenderse las variedades de nombres y funciones) tablas 4.2,4.3
+
+en matriz de pesares los números mayores de las columnas creadas se sustityen por 0  siendo este el mayor y el menor la diferencia de ambas
+
+PUNTO 5: La teoría de los juegos de estrategia
+
+Hasta página 84 y ejercicios tema 4
+
+PUNTO 6: Probabilidad y riesgo (sucesos compuestos/dependientes/independientes) suc indep P(AnB)=P(A)*P(B) por ejemplo. tabla 4.11
+teorema de bayes(que es)
+determinación del grado de confianza, distribución normal (campana de gauss, formulas)
+
+Fijarse en los logaritmos y dependiendo del enunciado, (nits,decimal o binario)
+
+3ultimas formulas del tema 4.
