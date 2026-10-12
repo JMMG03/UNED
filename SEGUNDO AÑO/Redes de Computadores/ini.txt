@@ -1,2 +1,0 @@
-pec 1 -> wireshack (llegar al tema 7 incluido) ARP
-pec 2 -> packetTracert (llegar al tema 13 incluido)
